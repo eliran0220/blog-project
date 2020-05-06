@@ -1,0 +1,249 @@
+
+.box{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #00d2ff, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-y: scroll;
+}
+
+
+
+.input-contain {
+    max-width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+
+.login-img-container {
+    position: absolute;
+    margin-top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-style: inherit;
+}
+
+.create-account{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.signup-message{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.label-input{
+    text-align: center;
+}
+
+
+.card-default {
+    position: center;
+    width: 50%;
+    max-width: 100%;
+    max-height: 100% ;
+    height: 30%;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-home {
+    position: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    width: 30%;
+    height: 10%;
+    top:70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.posts-home{
+    position: relative;
+    margin-top: 150px;
+}
+.card-error {
+    position: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    width: 30%;
+    height: 10%;
+    top:70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-settings {
+    position: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    width: 30%;
+    height:30%;
+    top:70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+ .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../src/images/home-avatar.png') center / cover;
+  }
+
+  .avatar-about{
+    position: absolute;
+    margin-top: 15%;
+    background-size: 20% auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hello-message{
+      font-family: 'Cambria';
+      font-size: 10%;
+      text-align: center;
+      margin-top:50px;
+  }
+
+
+
+
+.textarea {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    resize: vertical;
+  }
+
+.create-post-button{
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    position: center;
+    margin-top: 5%;
+}
+
+.wrapper {
+    position: relative;
+    top: 150px;
+}
+
+
+.wrapper-settings{
+    position: relative;
+    top: 30%;
+}
+.wrapper-all-posts-profile {
+    position: relative;
+    top: 150px;
+}
+
+.wrapper-all-posts-follow {
+    position: relative;
+    top: 50px;
+}
+
+.wrapper-all-posts-home {
+    position: relative;
+    top: 200px;
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-y: scroll;
+}
+
+.following {
+    position: relative;
+    background: whitesmoke; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    top:50px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 15%;
+    height: 100%;
+    left:10%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.followers {
+    position: relative;
+    background: whitesmoke; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    top:300px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 30%;
+    height: 100%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.feed {
+    position: relative;
+    background: whitesmoke; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    top:150px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 30%;
+    height: 100%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.button-follow{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.following-list {
+    color:#3a7bd5;
+    font-size: large;
+}
+
+.inline-div{
+    text-align: center;
+    margin: 30px 30px;
+    margin-top: 5px;
+    
+}
+
+.followers-left{
+    float:left;
+    margin-left:15px;
+}
+.followers-right{
+    float:right;
+    margin-left:15px;
+}
+
+.show-more-less-followers{
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+}
