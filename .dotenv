@@ -1,0 +1,4 @@
+ MONGO_URL_CONNECTION = mongodb+srv://eliran:84567984abc@cluster0.pkhnq.mongodb.net/jonesDatabase?retryWrites=true&w=majority
+
+
+
